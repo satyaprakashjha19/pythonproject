@@ -26,3 +26,10 @@ l_name = "jha"
 print(f"{f_name}")
 print(f"{l_name}")
 print(f"{f_name} {l_name}")
+
+# integer and string
+name = "satyaprakash"
+age = 29
+print(f"hello my name is {name}")
+print(f"{name} {age}")
+print(f"{age} {name}")
