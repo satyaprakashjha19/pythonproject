@@ -100,3 +100,11 @@ sum , sub = add_sub(20)
 print(sum)
 print(sub)
 
+# nested function
+
+def disp():
+    def show():
+        print("show function")
+    print("disp function")
+    show()
+disp()
