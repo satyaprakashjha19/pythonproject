@@ -34,9 +34,10 @@ add()
 
 def disp():
     name = "satyaprakash"
-    print(name)
+    print("Welcome", name)
 
 disp()
+
 
 # Divide large task in to many small task
 # separate function for addition
@@ -108,3 +109,9 @@ def disp():
     print("disp function")
     show()
 disp()
+
+
+def add(y):
+    print(y)
+
+add("satyaprakash")
