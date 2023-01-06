@@ -21,3 +21,11 @@ print(x(10,20,30))
 add = lambda x = 10: (lambda y : x + y)
 a = add()
 print(a(20))
+
+# return lambda function
+
+def add():
+    y = 20
+    return(lambda x :x + y)
+a = add()
+print(a(10))
