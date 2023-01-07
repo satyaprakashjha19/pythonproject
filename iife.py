@@ -12,3 +12,11 @@ def show():
     print(a)
     
 show()
+
+# recursion
+
+def myfun():
+    print("geekyshows")
+    myfun()
+
+myfun()
