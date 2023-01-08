@@ -21,3 +21,20 @@ def show(ar):
 
 a = array('i', [101,102,103,104])
 show(a)
+
+# returnig array from function
+
+from array import *
+def show(ar):
+    print("Passed array ar: ", ar)
+    print(type(ar))
+    for i in ar:
+        print(i)
+    return ar
+
+a = array('i', [10,11,12,13])
+y = show(a)
+print("Returning array Y :", y)
+print(type(y))
+for i in y:
+    print(i)
