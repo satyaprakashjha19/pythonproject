@@ -38,3 +38,13 @@ print("Returning array Y :", y)
 print(type(y))
 for i in y:
     print(i)
+
+# Create empty list using list function
+
+a = list("Geekyshows")
+print(a)
+print(type(a))
+
+a = list(range(0,5))
+print(a)
+print(type(a))
